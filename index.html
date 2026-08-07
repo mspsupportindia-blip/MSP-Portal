@@ -57,8 +57,8 @@
 
   window.addEventListener('DOMContentLoaded', function() {
     var t = getTarget();
-    // 2.5 sec baad auto-redirect
-    setTimeout(go, 2500);
+    // 0.2 sec baad auto-redirect (fast, spinner ka jhalak)
+    setTimeout(go, 200);
     // "button bhi dikhe" taaki internet slow ho to bhi chale
     var b = document.getElementById('goBtn');
     if (b) b.style.display = 'inline-block';
